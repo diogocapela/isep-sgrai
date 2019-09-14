@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"
+      integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo="
+      crossorigin="anonymous"
+    ></script>
+    <title>factory</title>
+    <!-- Styles-->
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="tooltip"></div>
+    <!-- Sound -->
+    <audio id="sound_background">
+      <source src="/assets/sound/background.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="sound_machine_1">
+      <source src="/assets/sound/machine_1.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="sound_machine_2">
+      <source src="/assets/sound/machine_2.mp3" type="audio/mpeg" />
+    </audio>
+    <!-- Libraries -->
+    <script src="/lib/jquery/jquery-3.4.1.min.js"></script>
+    <script src="/lib/lodash/lodash.js"></script>
+    <script src="/lib/three.js/three.js"></script>
+    <script src="/lib/three.js/controls/OrbitControls.js"></script>
+    <!-- Utils -->
+    <script src="/scripts/utils.js"></script>
+    <!-- Models -->
+    <script src="/models/Cube.js"></script>
+    <script src="/models/Cylinder.js"></script>
+    <script src="/models/Text.js"></script>
+    <script src="/models/Plane.js"></script>
+    <script src="/models/Snake.js"></script>
+    <script src="/models/Machine.js"></script>
+    <!-- Draw -->
+    <script src="/scripts/buildFloor.js"></script>
+    <script src="/scripts/buildMachine.js"></script>
+    <script src="/scripts/buildPanorama.js"></script>
+    <script src="/scripts/buildProduct.js"></script>
+    <script src="/scripts/buildProductionLine.js"></script>
+    <script src="/scripts/buildSuperMachine.js"></script>
+    <!-- Main -->
+    <script src="/app.js"></script>
+    <!-- Scripts -->
+    <script src="/scripts/startAxesHelper.js"></script>
+    <script src="/scripts/startKeyControls.js"></script>
+    <!--<script src="/scripts/startGUI.js"></script>-->
+    <script src="/scripts/startLights.js"></script>
+    <script src="/scripts/startMenu.js"></script>
+    <script src="/scripts/startOrbitControls.js"></script>
+    <script src="/scripts/startProductionPlanning.js"></script>
+    <!--<script src="/scripts/startRaycaster.js"></script>-->
+    <script src="/scripts/startSocket.js"></script>
+    <script src="/scripts/startSounds.js"></script>
+    <script src="/scripts/startWindowResizeHelper.js"></script>
+  </body>
+</html>

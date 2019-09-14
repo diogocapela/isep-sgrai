@@ -1,0 +1,16 @@
+{
+    "root": true,
+    "env": {
+        "es6": true,
+        "browser": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "extends": [
+        "eslint:recommended",
+        "airbnb-base",
+        "prettier"
+    ],
+    "plugins": ["prettier"]
+}
